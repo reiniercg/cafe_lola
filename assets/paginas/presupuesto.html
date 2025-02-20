@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Lola</title>
+    <link rel="stylesheet" href="/assets/estilos/estilo_presupuesto.css">
+</head>
+<body>
+    <header>
+        
+            <div class="div_logo">
+                <a href="/index.html"><img src="/assets/imagenes/cl.png" alt="logo" class="logo"></a>
+                <span class="logo_name">Café Lola</span>
+            </div>
+            
+    </header>
+    <nav class="menu">
+        <div class="div_menu">
+            <ul class="menu_list">
+                <li class="li"><a href="/index.html"><span class="m">HOME</span></a></li>
+                <li class="li"><a href="/assets/paginas/productos.html"><span class="m">PRODUCTOS</span></a></li>
+                <li class="li"><a href="/assets/paginas/presupuesto.html"><span class="m m1">PRESUPUESTO</span></a></li>
+                <li class="li"><a href="/assets/paginas/contacto.html"><span class="m">CONTACTO</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <p><pre>
+                Disfruta de un Brunch Especial en Nuestra Cafetería
+            En nuestra acogedora cafetería, nos encanta ofrecerte la mejor experiencia de brunch. Sabemos que cada ocasión es especial y queremos asegurarnos de que disfrutes de un momento memorable sin preocuparte por el presupuesto.
+            
+            Opciones de Brunch
+            Brunch Clásico: Nuestro brunch clásico incluye una selección de panecillos recién horneados, frutas frescas, huevos al gusto y una variedad de cafés y tés. Todo esto por solo 15€ por persona.
+            
+            Brunch Saludable: Para aquellos que prefieren opciones más ligeras, ofrecemos un brunch saludable con yogur natural, granola, batidos de frutas, tostadas de aguacate y ensaladas frescas. Precio: 18€ por persona.
+            
+            Brunch Gourmet: Si buscas una experiencia más lujosa, nuestro brunch gourmet incluye una selección de quesos finos, embutidos artesanales, salmón ahumado, huevos Benedict y un brindis con mimosas. Precio: 25€ por persona.
+            
+            Personalización y Reservas
+            Si deseas personalizar tu brunch para una ocasión especial o tienes alguna preferencia dietética, no dudes en contactarnos. Estamos encantados de adaptarnos a tus necesidades para hacer de tu brunch una experiencia perfecta.
+            
+            Puedes hacer una reserva llamándonos al [número de teléfono] o a través de nuestro sitio web [enlace de reservas].
+            
+            Horarios y Disponibilidad
+            Ofrecemos brunch todos los fines de semana de 10:00 a 14:00. Asegúrate de reservar con antelación para garantizar tu lugar, especialmente durante los días festivos.
+        </pre></p>
+
+        </div>
+    </section>
+    
+    <h2>Presupuesto</h2>
+    <form action="/submit_form.php"> <!--es necesario para validar-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <label for="mensaje">Solicite más información</label>
+        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+        <div class="div_privacidad">
+        <label for="privacidad">
+            <input type="checkbox" id="privacidad" name="privacidad" required class="ch_box">
+            Acepto la política de privacidad
+        </label>
+        </div>
+        
+        
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+
+
+
+    <footer>
+        <div class="div_redes">
+            <a href="https://www.facebook.com/"><img src="/assets/imagenes/f.png" alt="logo facebock" class="redes"></a>
+            <a href="https://www.tiktok.com/"><img src="/assets/imagenes/t.png" alt="logo tiktok" class="redes"></a>
+            <a href="https://www.instagram.com/"><img src="/assets/imagenes/i.png" alt="logo instagram" class="redes"></a>
+            
+        </div>
+        <h5 class="al">Aviso legal</h5>
+        <div class="div_dirección">
+            <div class="dirección">Dirección: Calle Chipude, Calle Libertad</div>
+            <div class="dirección">Teléfono: 123-456-789</div>
+        </div>    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,342 @@
+@font-face {
+    font-family: "Cinzel Decorativo";
+    src: url("/assets/fuentes/CinzelDecorative-Regular.ttf");
+}
+
+/* Estilos generales */
+body {
+    background-color: #dbb991;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f0a94d;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.logo_name {
+    font-family: "Cinzel Decorativo";
+    font-size: 50px;
+    color: #6b4d20;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 2px 2px 4px #fd9801;
+    margin: 0 auto;
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color:  darkgoldenrod;
+    color: white;
+    flex-wrap: wrap;
+    padding: 10px ;
+    font-size:28px;
+}
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Cinzel Decorativo";
+    margin: auto;
+}
+
+.menu_list :hover {
+    background-color: #5f3505;
+    color: rgb(221, 122, 55);
+    border-radius: 5px;
+    
+}
+
+h2 {
+    font-family: "Cinzel Decorativo";
+    margin: 10px auto;
+    text-shadow: 2px 2px 4px #fd9801;
+
+}
+
+.m {
+    color: #6b4d20;
+    font-family: "Cinzel Decorativo";
+    margin: 0 auto;
+}
+.m1 {
+    background-color: #5f3505;
+    color: rgb(221, 122, 55);
+    border-radius: 5px;
+}
+
+a {
+    color: #6b4d20;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.menu_list a {
+    text-decoration: none;
+    color: #e64b1c;
+}
+/*para activar la pagina en la que estoy NW*/
+.menu_list a.active {
+    color: #236b20;
+}
+/*estilos del formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #6b4d20;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff7e6;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #6b4d20;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #f0a94d;
+    outline: none;
+    box-shadow: 0 0 5px rgba(240, 169, 77, 0.5);
+}
+.div_privacidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+}
+.div_privacidad input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+form button {
+    margin: 20px 20px 0 20px;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0a94d;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #dbb991;
+}
+
+
+
+/*estilos del footer*/
+.redes {
+    width: 50px;
+    margin: 20px;
+}
+
+.al {
+    color: #6b4d20;
+    font-family: "Cinzel Decorativo";
+    text-align: center;
+    margin: 10px auto;
+}
+
+.div_dirección {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 50px;
+}
+
+.dirección {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: row;
+        align-items: center;
+        font-size: 26px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: darkgoldenrod;
+    }
+
+    .div_menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .menu_list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .menu_list li {
+        flex: 1 1 auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 auto;
+    }
+
+    .menu_list a {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .logo_name {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .div_direccion {
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .menu {
+        font-size: 18px;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: darkgoldenrod;
+    }
+
+    .menu_list {
+        gap: 5px;
+        margin: 0 auto;
+    }
+
+    .menu_list li {
+        flex: auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 auto;
+    }
+
+    .menu_list a {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .logo_name {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    
+    .div_direccion {
+        gap: 5px;
+        margin: 0 auto;
+    }
+}
+/*
+@media (max-width: 280px) {
+    .menu {
+        font-size: 16px;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: darkgoldenrod;
+    }
+
+    .menu_list {
+        gap: 3px;
+        margin: 0 auto;
+    }
+
+    .menu_list li {
+        flex: auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 auto;
+    }
+
+    .menu_list a {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .logo_name {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .div_direccion {
+        gap: 3px;
+        margin: 0 auto;
+    }
+}
