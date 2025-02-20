@@ -3,78 +3,7 @@
     src: url("assets/fuentes/CinzelDecorative-Regular.ttf");
 }
 
-/* Estilos generales */
-body {
-    background-color: #dbb991;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-header {
-    background-color: #f0a94d;
-    color: #fff;
-    padding: 20px 0;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
-}
-
-.logo {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: middle;
-    justify-content: center;
-}
-
-.logo_name {
-    font-family: "Cinzel Decorativo";
-    font-size: 50px;
-    color: #6b4d20;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-    text-shadow: 2px 2px 4px #fd9801;
-    margin: 0 auto;
-}
-
-/* Estilos para el menú */
-.div_menu {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 ;
-    
-}
-.menu {
-    display: flex;
-    justify-content: center;
-    background-color:  darkgoldenrod;
-    color: white;
-    flex-wrap: wrap;
-    padding: 5px ;
-    font-size:28px;
-}
-
-.menu_list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    font-family: "Cinzel Decorativo";
-    margin: 0;
-}
-
-.menu_list :hover {
-    background-color: #5f3505;
-    color: rgb(221, 122, 55);
-    border-radius: 5px;
-    
-}
-
+/*historia*/
 h1 {
     font-family: "Cinzel Decorativo";
     margin: 10px ;
