@@ -173,7 +173,7 @@ h3 {
 
 .sección_compromiso {
     width: 100%;
-    height: 450px;
+    height: 650px;
     background-image: url("../imagenes/cafetería.jpg");
     background-size: cover;
     background-position: center;
@@ -329,7 +329,7 @@ h3 {
 
     .nombre{
         text-align: center;
-        width: 350px;
+        width: 330px;
     }
     .p_nombre_historia{
         width: 300px;
@@ -381,7 +381,7 @@ h3 {
     }
     .nombre{
         text-align: center;
-        width: 350px;
+        width: 330px;
     }
     .p_nombre_historia{
         width: 300px;
