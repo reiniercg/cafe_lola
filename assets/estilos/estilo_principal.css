@@ -48,24 +48,6 @@ h6{
     text-shadow: 2px 2px 4px #fd9801;
 }
 
-.m {
-    color: #6b4d20;
-    font-family: "Cinzel Decorativo";
-    margin: 0 auto;
-}
-
-.m1 {
-    background-color: #5f3505;
-    color: rgb(221, 122, 55);
-    border-radius: 5px;
-}
-
-a {
-    color: #6b4d20;
-    text-decoration: none;
-    margin: 0 auto;
-}
-
 /*estilo de historia*/
 .historia{
     display: flex;
