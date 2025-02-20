@@ -395,6 +395,9 @@ h3 {
         text-align: center;
         width: 350px;
     }
+    .p_nombre_historia{
+        width: 350px;
+    }
 }
 
 @media (max-width: 600px) {
