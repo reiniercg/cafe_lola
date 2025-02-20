@@ -361,7 +361,7 @@ h3 {
         margin: 0 ;
     }
 
-    .menu_list li {
+    .menu_list, .li {
         flex: 1 1 auto;
         width: auto;
         justify-content: center;
@@ -402,24 +402,26 @@ h3 {
         width: 350px;
     }
     .p_nombre_historia{
-        width: 350px;
+        width: 300px;
     }
 }
 
 @media (max-width: 600px) {
     .menu {
-        font-size: 18px;
+        font-size: 16px;
         justify-content: center;
         margin: 0 auto;
         background-color: darkgoldenrod;
     }
 
     .menu_list {
-        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
         margin: 0 ;
     }
 
-    .menu_list li {
+    .menu_list, .li {
         flex: auto;
         width: auto;
         justify-content: center;
@@ -446,5 +448,28 @@ h3 {
     .div_direccion {
         gap: 5px;
         margin: 0 auto;
+    }
+    .nombre{
+        text-align: center;
+        width: 350px;
+    }
+    .p_nombre_historia{
+        width: 300px;
+    }
+}
+@media(max-width: 400px){
+    .p_nombre_historia{
+        width: 250px;
+    }
+    .menu_list, .li {
+        flex: auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 ;
+    }
+    .menu_list a {
+        font-size: 12px;
+        margin: 0 ;
     }
 }
