@@ -41,15 +41,21 @@ header {
 }
 
 /* Estilos para el menú */
+.div_menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 ;
+    
+}
 .menu {
     display: flex;
     justify-content: center;
     background-color:  darkgoldenrod;
     color: white;
     flex-wrap: wrap;
-    padding: 10px ;
+    padding: 5px ;
     font-size:28px;
-    
 }
 
 .menu_list {
@@ -57,9 +63,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
     font-family: "Cinzel Decorativo";
-    margin: auto;
+    margin: 0;
 }
 
 .menu_list :hover {
