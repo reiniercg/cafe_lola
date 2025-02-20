@@ -18,6 +18,12 @@ h6{
     width: 50px;
     animation: mover 1s infinite alternate;
 }
+.div_flecha_ima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 
 @keyframes mover {
     0% {
