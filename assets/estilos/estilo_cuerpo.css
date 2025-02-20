@@ -71,7 +71,7 @@ header {
 .menu_list :hover {
     background-color: #5f3505;
     color: rgb(221, 122, 55);
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 h2 {
