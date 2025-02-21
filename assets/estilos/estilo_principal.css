@@ -28,10 +28,10 @@ h6{
 
 @keyframes mover {
     0% {
-        transform: translatex(0);
+        transform: translateX(0);
     }
     100% {
-        transform: translatex(10px);
+        transform: translateX(10px);
     }
 }
 
@@ -124,7 +124,7 @@ h6{
 .nombre {
     width: 400px;
     font-size: 14px;
-    font-family: "Cinzel Decorativo";
+    font-style: italic;
     color: #6b4d20;
     text-align: left;
     margin: 10px auto;
