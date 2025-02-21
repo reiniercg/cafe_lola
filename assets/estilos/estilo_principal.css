@@ -66,8 +66,8 @@ h6{
     text-align: center;
     margin: 10px auto;
     justify-content: center;
-    padding: 20px auto;
-    width: 300px;
+    padding: 20px ;
+    
     
 }
 
@@ -81,11 +81,12 @@ h6{
     justify-content: center;
 }
 
-
-
-.h2{
+.historia{
     margin-top: 50px;
 }
+
+
+
 
 .div_productos {
     display: flex;
