@@ -61,7 +61,8 @@ h6{
 }
 
 .p_nombre_historia{
-    width: 400px;
+    display: flex;
+    flex: wrap;
     font-size: 14px;
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
@@ -315,9 +316,6 @@ h3 {
         text-align: center;
         width: 330px;
     }
-    .p_nombre_historia{
-        width: 300px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -367,14 +365,9 @@ h3 {
         text-align: center;
         width: 330px;
     }
-    .p_nombre_historia{
-        width: 300px;
-    }
 }
 @media(max-width: 400px){
-    .p_nombre_historia{
-        width: 250px;
-    }
+    
     .menu_list, .li {
         flex: auto;
         width: auto;
