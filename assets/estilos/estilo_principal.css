@@ -4,6 +4,11 @@
 }
 
 /*flecha*/
+h1{
+    font-family: "Cinzel Decorativo";
+    margin: 10px auto;
+    text-align: center;
+}
 .café_lola {
     font-family: "Cinzel Decorativo";
     margin: 10px auto;
