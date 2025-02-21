@@ -94,8 +94,6 @@ h2{
     padding: 6px;
 }
 
-
-
 .div_productos {
     display: flex;
     flex-wrap: wrap;
@@ -139,11 +137,11 @@ h2{
     margin: 10px auto;
 }
 .nombre_1 {
-    width: 400px;
+    width: 350px;
     font-size: 14px;
     font-style: italic;
     color: #6b4d20;
-    text-align: left;
+    text-align: center;
     margin: 10px auto;
 }
 
@@ -213,7 +211,7 @@ h3 {
     flex-wrap: wrap;
     flex: 100%;
     background-color: #fd9801;
-    justify-content: center;
+    justify-content: center; 
     gap: 10px;
     margin: 0;
 }
@@ -227,7 +225,7 @@ h3 {
 }
 
 .personal{
-    width: 300px;
+    width: 250px;
     height: auto;
     margin: 0 auto;
     padding: 10px;
