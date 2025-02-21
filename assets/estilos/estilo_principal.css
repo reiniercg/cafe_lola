@@ -23,7 +23,7 @@ h6{
     width: 50px;
     animation: mover 1s infinite alternate;
 }
-.div_flecha_ima{
+.div_flecha_1{
     display: flex;
     justify-content: center;
     align-items: center;
