@@ -60,7 +60,12 @@ h6{
 }
 
 /*estilo de historia*/
-
+.div_historia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
 .p_nombre_historia {
     display: flex;
     flex-wrap: wrap;
@@ -68,11 +73,9 @@ h6{
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
     text-align: center;
-    margin: 10px ;
+    
     justify-content: center;
-    padding: 20px ;
-    
-    
+    background-color:  rgba(240, 169, 77, 0.7);
 }
 
 /*estilo de los productos*/
