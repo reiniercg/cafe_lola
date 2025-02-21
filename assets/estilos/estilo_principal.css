@@ -6,7 +6,8 @@
 /*historia*/
 h1 {
     font-family: "Cinzel Decorativo";
-    margin: 0 ;
+    margin: 10px;
+    
 }
 
 h6{
@@ -60,14 +61,17 @@ h6{
     flex-wrap: wrap;
 }
 
-.p_nombre_historia{
+.p_nombre_historia {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     font-size: 14px;
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 /*estilo de los productos*/
