@@ -78,7 +78,7 @@ h2 {
     font-family: "Cinzel Decorativo";
     margin: 10px auto;
     text-shadow: 2px 2px 4px #fd9801;
-
+    font-size: 20px;
 }
 
 .m {
@@ -90,6 +90,7 @@ h2 {
     background-color: #5f3505;
     color: rgb(221, 122, 55);
     border-radius: 8px;
+    
 }
 
 a {

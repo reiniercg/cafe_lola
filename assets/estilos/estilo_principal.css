@@ -22,7 +22,7 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0;
 }
 
 @keyframes mover {
@@ -48,7 +48,7 @@ h6{
 
 .p_flecha{
     font-family: "Cinzel Decorativo";
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     margin: 10px ;
     text-shadow: 2px 2px 4px #fd9801;
@@ -62,7 +62,7 @@ h6{
 
 .p_nombre_historia{
     width: 400px;
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
     text-align: center;
@@ -79,11 +79,7 @@ h6{
     justify-content: center;
 }
 
-h2 {
-    font-family: "Cinzel Decorativo";
-    margin: 10px auto;
-    text-shadow: 2px 2px 4px #fd9801;
-}
+
 
 .h2{
     margin-top: 50px;
@@ -125,7 +121,7 @@ h2 {
 
 .nombre {
     width: 400px;
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
     text-align: left;
