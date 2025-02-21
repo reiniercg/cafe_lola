@@ -201,9 +201,6 @@ a {
         text-align: center;
         width: 350px;
     }
-    .p_nombre_historia{
-        width: 300px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -253,14 +250,9 @@ a {
         text-align: center;
         width: 350px;
     }
-    .p_nombre_historia{
-        width: 300px;
-    }
 }
+
 @media(max-width: 400px){
-    .p_nombre_historia{
-        width: 250px;
-    }
     .menu_list, .li {
         flex: auto;
         width: auto;
@@ -270,6 +262,20 @@ a {
     }
     .menu_list a {
         font-size: 12px;
+        margin: 0 ;
+    }
+}
+
+@media (max-width: 300px) {
+    .menu_list, .li {
+        flex: auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 ;
+    }
+    .menu_list a {
+        font-size: 10px;
         margin: 0 ;
     }
 }

@@ -3,7 +3,7 @@
     src: url("../fuentes/CinzelDecorative-Regular.ttf");
 }
 
-/*historia*/
+/*flecha*/
 h1 {
     font-family: "Cinzel Decorativo";
     margin: 10px;
@@ -56,10 +56,6 @@ h6{
 }
 
 /*estilo de historia*/
-.historia{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .p_nombre_historia {
     display: flex;
@@ -70,8 +66,9 @@ h6{
     text-align: center;
     margin: 10px auto;
     justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 20px auto;
+    width: 300px;
+    
 }
 
 /*estilo de los productos*/
@@ -383,4 +380,23 @@ h3 {
         font-size: 12px;
         margin: 0 ;
     }
+    
+}
+@media (max-width: 300px) {
+    .menu_list, .li {
+        flex: auto;
+        width: auto;
+        justify-content: center;
+        padding: 1px 0;
+        margin: 0 ;
+    }
+    .menu_list a {
+        font-size: 10px;
+        margin: 0 ;
+    }
+    .p_nombre_historia {
+        font-size: 12px;
+        width: 200px;
+    }
+    
 }
