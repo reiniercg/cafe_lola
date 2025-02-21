@@ -225,7 +225,7 @@ h3 {
 }
 
 .personal{
-    width: 200px;
+    width: 300px;
     height: auto;
     margin: 0 auto;
     padding: 10px;
@@ -332,6 +332,10 @@ h3 {
         text-align: center;
         width: 330px;
     }
+    .nombre_1{
+        text-align: center;
+        width: 330px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -378,6 +382,10 @@ h3 {
         margin: 0 auto;
     }
     .nombre{
+        text-align: center;
+        width: 330px;
+    }
+    .nombre_1{
         text-align: center;
         width: 330px;
     }
