@@ -12,7 +12,7 @@ h1 {
 
 h6{
     font-family: "Cinzel Decorativo";
-    margin: 0 ;
+    margin: -10px ;
 }
 
 .flecha {
@@ -122,6 +122,14 @@ h6{
 }
 
 .nombre {
+    width: 400px;
+    font-size: 14px;
+    font-family: "Cinzel Decorativo";
+    color: #6b4d20;
+    text-align: left;
+    margin: 10px auto;
+}
+.nombre_1 {
     width: 400px;
     font-size: 14px;
     font-style: italic;
@@ -398,5 +406,21 @@ h3 {
         font-size: 12px;
         width: 200px;
     }
+    .producto {
+        width: 200px;
+    }
     
+    .personal{
+        width: 200px;
+    }
+    .nombre {
+        width: 250px;
+    }
+    .nombre_1 {
+        width: 250px;
+    }
+    .p_nombre_compromiso {
+        max-width: 230px;
+        font-size: 14px;
+    }
 }
