@@ -68,7 +68,7 @@ h6{
     font-family: "Cinzel Decorativo";
     color: #6b4d20;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px ;
     justify-content: center;
     padding: 20px ;
     
@@ -88,7 +88,13 @@ h6{
 .historia{
     margin-top: 50px;
 }
-
+h2{
+    font-family: "Cinzel Decorativo";
+    margin: 0 50px;
+    text-shadow: 2px 2px 4px #fd9801;
+    font-size: 20px;
+    padding: 6px;
+}
 
 
 
