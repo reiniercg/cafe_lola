@@ -196,11 +196,6 @@ a {
     h3 {
         font-size: 30px;
     }
-
-    .nombre{
-        text-align: center;
-        width: 350px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -245,10 +240,6 @@ a {
     .div_direccion {
         gap: 5px;
         margin: 0 auto;
-    }
-    .nombre{
-        text-align: center;
-        width: 350px;
     }
 }
 
