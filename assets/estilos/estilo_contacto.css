@@ -4,24 +4,27 @@
 }
 
 /*estilos de contacto*/
-.contenedor {/*revisar*/
+.contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
 }
+
 iframe {
     width: 100%;
     height: 300px;
     border: 0;
     margin: 0 auto;
 }
+
 .datos_contacto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .descripción {
     font-size: 14px;
     font-family: "Cinzel Decorativo";
@@ -33,7 +36,6 @@ iframe {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(7, 6, 4, 0.5);
 }
-
 
 /*estilos del footer*/
 .redes {
@@ -52,7 +54,6 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     padding: 50px;
 }
 
@@ -70,7 +71,6 @@ iframe {
         align-items: center;
         margin: 0 auto;
     }
-    
 }
 
 @media (max-width: 600px) {
@@ -79,9 +79,9 @@ iframe {
         margin: 0 auto;
     }
 }
+
 @media (max-width: 300px){
     .descripción {
         font-size: 14px;
-
     }
 }
