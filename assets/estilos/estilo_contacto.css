@@ -38,10 +38,11 @@ iframe {
 }
 
 .dirección{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
+
 /*estilos del footer*/
 .redes {
     width: 50px;
@@ -83,10 +84,20 @@ iframe {
         gap: 5px;
         margin: 0 auto;
     }
+    .dirección{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 300px){
     .descripción {
         font-size: 14px;
+    }
+    .dirección{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
     }
 }
