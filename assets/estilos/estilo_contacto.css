@@ -4,13 +4,6 @@
 }
 
 /*estilos de contacto*/
-h2{
-    font-family: "Cinzel Decorativo";
-    margin: 0 50px;
-    text-shadow: 2px 2px 4px #fd9801;
-    font-size: 20px;
-    padding: 6px;
-}
 .contenedor {/*revisar*/
     display: flex;
     flex-wrap: wrap;

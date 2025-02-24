@@ -40,6 +40,13 @@ header {
     margin: 0 auto;
 }
 
+h2{
+    font-family: "Cinzel Decorativo";
+    margin: 0 50px;
+    text-shadow: 2px 2px 4px #fd9801;
+    font-size: 20px;
+    padding: 6px;
+}
 /* Estilos para el menú */
 .div_menu {
     display: flex;
@@ -90,7 +97,6 @@ header {
     background-color: #5f3505;
     color: rgb(221, 122, 55);
     border-radius: 8px;
-    
 }
 
 a {
@@ -98,10 +104,12 @@ a {
     text-decoration: none;
     margin: 0 auto;
 }
+
 .menu_list a {
     text-decoration: none;
     color: #e64b1c;
 }
+
 /*estilo de la sección de contacto*/
 .redes {
     width: 50px;
