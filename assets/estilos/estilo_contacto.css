@@ -37,6 +37,11 @@ iframe {
     box-shadow: 0 4px 8px rgba(7, 6, 4, 0.5);
 }
 
+.dirección{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
 /*estilos del footer*/
 .redes {
     width: 50px;
