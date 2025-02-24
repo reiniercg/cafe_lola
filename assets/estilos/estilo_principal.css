@@ -14,11 +14,6 @@ h1{
     margin: 10px auto;
 }
 
-h6{
-    font-family: "Cinzel Decorativo";
-    margin: -10px ;
-}
-
 .flecha {
     width: 50px;
     animation: mover 1s infinite alternate;
