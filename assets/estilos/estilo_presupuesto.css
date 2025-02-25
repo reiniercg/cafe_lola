@@ -91,12 +91,6 @@ form button:hover {
         padding: 1.5rem;
     }
 
-    .div_direccion {
-        flex-direction: row;
-        align-items: center;
-        margin: 0 auto;
-    }
-
     p {
         font-size: 16px;
         width: 90%;
@@ -115,11 +109,19 @@ form button:hover {
         gap: 5px;
         margin: 0 auto;
     }
+    h2{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 300px) {
     form {
         width: 70%;
         padding: 1rem;
+    }
+    h2{
+        font-size: 14px;
+        width: 90%;
+        margin: 0;
     }
 }

@@ -41,19 +41,7 @@ main {
     margin: 10px auto;
 }
 
-.div_dirección {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
-}
 
-.dirección {
-    display: flex;
-    flex-direction: column;
-    flex: 100%;
-    flex-wrap: wrap;
-}
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
