@@ -52,6 +52,15 @@ form input:focus, form textarea:focus, form select:focus {
     box-shadow: 0 0 5px rgba(240, 169, 77, 0.5);
 }
 
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #6b4d20;
+    margin: 10px;
+    text-align: left;
+    width: 100%;
+}
+
 .div_privacidad {
     display: flex;
     justify-content: center;

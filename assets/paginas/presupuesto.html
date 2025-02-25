@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../estilos/estilo_cuerpo.css">
     <link rel="stylesheet" href="../estilos/estilo_presupuesto.css">
 </head>
+
 <body>
     <header>
             <div class="div_logo">
@@ -24,6 +25,7 @@
             </ul>
         </div>
     </nav>
+    
     <section class="sección_presupuesto">
         <h2>Descubre el Mejor Servicio de Catering para tus Eventos</h2>
         <div>
@@ -42,14 +44,14 @@
     
     <h2>Solicita Presupuesto</h2>
     <form action="submit_form.php"> <!--es necesario para validar-->
-        <label for="nombre">Nombre:</label>
+        <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" required>
-        <label for="email">Email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
-        <label for="telefono">Teléfono:</label>
+        <label for="telefono">Teléfono</label>
         <input type="tel" id="telefono" name="telefono" required>
         <label for="mensaje">Solicite más información</label>
-        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+        <textarea name="mensaje" id="mensaje" required placeholder="Escribe tu mensaje aquí..."></textarea>
         <div class="div_privacidad">
         <label for="privacidad">
             <input type="checkbox" id="privacidad" name="privacidad" required class="ch_box">

@@ -122,7 +122,7 @@ h2{
 .producto:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: #fd9801;
+    background-color: #f0a94d;
 }
 
 .nombre {
@@ -208,7 +208,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex: 100%;
-    background-color: #fd9801;
+    background-color: #f0a94d;
     justify-content: center; 
     gap: 10px;
     margin: 0;
@@ -243,7 +243,6 @@ h3 {
     text-align: center;
     margin: 10px auto;
 }
-
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {

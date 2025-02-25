@@ -12,7 +12,7 @@ main {
     /*define tamaño y cantidad de columnas*/
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    background-color: #fd9801;
+    background-color: #f0a94d;
 }
 
 .img_galeria {
