@@ -17,6 +17,7 @@ h1{
 
 .flecha {
     width: 50px;
+    height: auto;
     animation: mover 1s infinite alternate;
 }
 
@@ -229,19 +230,6 @@ h3 {
     padding: 10px;
     object-fit: cover;
     border-radius: 30px;
-}
-
-/*estilo de la sección de contacto*/
-.redes {
-    width: 50px;
-    margin: 20px;
-}
-
-.al {
-    color: #6b4d20;
-    font-family: "Cinzel Decorativo";
-    text-align: center;
-    margin: 10px auto;
 }
 
 /* Media query para pantallas pequeñas */

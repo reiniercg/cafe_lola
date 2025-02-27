@@ -113,6 +113,7 @@ a {
 /*estilo de la sección de contacto*/
 .redes {
     width: 50px;
+    height: auto;
     margin: 20px;
 }
 
